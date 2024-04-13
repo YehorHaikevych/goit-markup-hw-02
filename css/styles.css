@@ -36,7 +36,10 @@ color: #2e2f42;
 }
 .nav-link:hover,
 .nav-link:focus{
-    color: #404bbf;;
+    color: #404bbf;
+}
+.address {
+    font-style: normal;
 }
 .address-link {
 font-weight: 400;
@@ -56,7 +59,7 @@ background: #2e2f42;
 }
 .hero-name {
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 color: #fff;
 text-align: center;
@@ -68,40 +71,48 @@ text-align: center;
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
-    
+    cursor: pointer;
+   
 }
-.benefits {
-    font-weight: 500;
+.button-service:hover
+.button-service:focus{
+background-color: #404BBF
+}
+.our-benefits {
+
+}
+.our-benefits-benefits {
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.our-benefits-description {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 .team {
-    background: #f4f4fd;
+background: #f4f4fd;
 }
 .team-nema {
-    font-weight: 700;
+font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-align: center;
+text-transform: capitalizeж
 
 }
 .team-card {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: #fff;
 }
 .nema {
-    font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -109,7 +120,7 @@ color: #2e2f42;
 text-align: center;
 }
 .position {
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -117,39 +128,41 @@ color: #434455;
 text-align: center;
 }
 .portfolio {
-    font-weight: 700;
+font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
+text-align: center;
+text-transform: capitalize;
 }
 .portfolio-nema {
-    font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .variety {
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 .logo-footer {
-    font-weight: 700;
+font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.7;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
 }
 .footer {
-    background: #2e2f42;
+background: #2e2f42;
 }
 .footer-description {
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
