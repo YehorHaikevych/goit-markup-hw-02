@@ -72,7 +72,7 @@ background: #4d5ae5;
 cursor: pointer;
    
 }
-.button-service:hover
+.button-service:hover,
 .button-service:focus{
 background-color: #404BBF;
 
